@@ -24,6 +24,7 @@ function generateFileName(url: string) {
     } else {
       filename += "_en.pdf";
     }
+    return filename
   }
 
   return ""
