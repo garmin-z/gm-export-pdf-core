@@ -1,5 +1,5 @@
 {
-  "name": "gm-export-pdf-core",
+  "name": "gm-export-pdfs-core",
   "type": "module",
   "version": "1.0.1",
   "description": "The Core of VuePress and VitePress exports PDF plugin",
@@ -44,7 +44,6 @@
   "scripts": {
     "release": "bumpp -r && pnpm -r publish --no-git-checks",
     "build": "unbuild",
-    "prepublishOnly": "nr build",
     "dev": "esno ./src/index.ts"
   },
   "dependencies": {
