@@ -121,6 +121,7 @@ export async function generatePdf({
 
     await printer.render(location)
     const headTitle = title || await page.title()
+
     const data = await printer.pdf(location, {
       format: 'A4',
       ...pdfOptions,
