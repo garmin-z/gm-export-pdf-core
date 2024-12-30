@@ -1,7 +1,7 @@
 {
   "name": "gm-export-pdf-core",
   "type": "module",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "The Core of VuePress and VitePress exports PDF plugin",
   "author": "garminzjm",
   "license": "MIT",
@@ -65,7 +65,8 @@
     "@types/envinfo": "^7.8.3",
     "@types/fs-extra": "^11.0.4",
     "@types/semver": "^7.5.8",
-    "bumpp": "^9.8.1"
+    "bumpp": "^9.8.1",
+    "typescript": "^5.7.2"
   },
   "publishConfig": {
     "access": "public",
